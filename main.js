@@ -1,5 +1,4 @@
 $(document).ready(function() {
- 
 
   var oldText,
     newText;
@@ -77,7 +76,6 @@ $(document).ready(function() {
       .html(form)
       .unbind('click', addSkill);
 
-
     $(document).on('click', '.btnSaveSkill', function(e) {
       e.preventDefault();
       var newSkillValue = $(this).parent("form")
@@ -86,12 +84,11 @@ $(document).ready(function() {
       var selectValue = $(this).parent("form")
         .children('select')
         .val();
-        //prevent adding empty skill
-        if (newSkillValue.length>0) 
-        {
-        	$('.skills-list').append("<li class =\"skills-list-item " + selectValue + "\">" + newSkillValue + "</li>")
-        }
- 
+      //prevent adding empty skill
+      if (newSkillValue.length > 0) {
+        $('.skills-list').append("<li class =\"skills-list-item " + selectValue + "\">" + newSkillValue + "</li>")
+      }
+
     });
   }
 
