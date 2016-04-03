@@ -1,0 +1,51 @@
+@media screen and (max-width: 980px) {
+	.main-wrapper{
+		width: auto;
+	}
+	
+	.img-wrapper{
+		width: 235px;
+		float: none;
+		margin: 0 auto;
+	}
+
+	.personal-info{
+		text-align: center;
+		width: auto;
+		float: none;
+		margin-bottom: 30px;
+		padding: 0;
+		
+	}
+
+	.add-skill-link{
+	min-width: 260px;
+	margin: 0 auto;
+	display: block;
+	
+	}
+	form{
+		min-width: 260px
+	}
+
+	.editable:hover:before{
+		display: none;
+		content: '';
+	}
+
+	.print-link{
+		display: none;
+	}
+
+	.mid-section{
+		text-align: center;
+	}
+
+	.companies-list, .experience-list{
+		text-align: left;
+	}
+
+	.quote{
+		text-align: left;
+	}
+}

@@ -1,0 +1,14 @@
+@media print {
+	.print-link{
+		display: none;
+	}
+
+	.add-skill-link{
+		display: none;
+	}
+
+	.skills-list-item{
+		color: $black;
+	}
+
+}

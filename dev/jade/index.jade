@@ -1,0 +1,121 @@
+doctype html
+head
+	meta(charset="UTF-8")
+	meta(name="viewport", content="width=device-width")
+	title
+		| Jhon Smith's Portfolio
+	link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Fira+Sans:300,500,300italic,500italic")
+	link(rel="stylesheet", href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css")
+	link(rel="stylesheet", href="style.css")
+	//[if IE]> 
+		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
+		<link rel="stylesheet", href="ie.css">
+		<![endif]
+	script(src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js")
+body
+	.main-wrapper
+		header.main-info
+			.img-wrapper
+				img(src="img/john.jpg", alt="Jhon Smith", title = "Mr Smith", class="personal-photo")
+			.personal-info
+				h1.name.editable
+					|John Smith
+				span.city.editable
+					|Portland, Oregon, USA
+				span.language.editable
+					|English
+				ul.skills-list
+						li.skills-list-item.strong
+							|PHP
+						li.skills-list-item.strong
+							|Ruby
+						li.skills-list-item.middle
+							|Javascript
+						li.skills-list-item.light
+							|Actionscript
+
+				a(href="#").add-skill-link
+					|Add skill
+				a(href="javascript:window.print();").print-link
+					|print this page
+		section.mid-section
+			.block
+				h2.block-header
+					|Portfolio 
+				h3.block-subheader
+					|PHP, Ruby, Javascript
+				ul.companies-list
+					li.experience-list-item
+						strong NavalPlan
+						|, PHP, Ruby
+					li.experience-list-item
+						strong MyTime
+						|, Javascript
+					li.experience-list-item
+						strong Formidable
+						|, PHP, Ruby
+					li.experience-list-item
+						strong MyTime
+						|, Javascript
+					li.experience-list-item
+						strong Monsoon
+						|, ActionScript
+			.block
+				h4.block-header
+					|Experience
+				ul.experience-list
+					li.experience-list-item
+						strong PHP
+						|, 6 years
+					li.experience-list-item
+						strong Ruby
+						|, 7 years
+					li.experience-list-item
+						strong Javascript
+						|, 4 years
+					li.experience-list-item
+						strong Actionscript
+						|, 3 years
+			.block.sample-code
+				h4.block-header.code-block-header
+					|Sample code and algotythms
+			.block.availability-block
+				.block-half
+					h4.block-header
+						|Availability
+					strong.availability
+						|Full-time
+				.block-half
+					h4.block-header
+						|Preferred environment
+					p
+						|Git, GitHub, vim, emacs, Jenkins, Mac OSX
+
+			.block
+				h4.block-header
+					|The most amazing ...
+				blockquote.quote
+					|... Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua et dolore magna aliqua et dol ut labore et dolore
+					span.quote-author
+						| - Martin
+			.block
+				h4.block-header
+					|In clients I look for ...
+				blockquote.quote
+					|... Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua et dolore magna aliqua. 
+					span.quote-author
+						| - Martin
+			.block
+			.block
+				h4.block-header
+					|Note
+				p.quote
+					|... Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua et dolore magna aliqua. 
+					span.quote-author
+						| - Martin
+	script(src="main.js")
+
+		
+
+
+

@@ -1,0 +1,16 @@
+@mixin clearfix {
+	&:before,
+	&:after {
+		content: "";
+		display: table;
+	}
+
+	&:after {
+		clear: both;
+	}
+}
+
+@mixin background-opacity($color, $opacity: 0.5) {
+    background: $color; 
+    background: rgba($color, $opacity);
+}
