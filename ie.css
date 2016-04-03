@@ -1,0 +1,70 @@
+.block {
+  height: 235px;
+  width: 235px;
+}
+
+.sample-code {
+  height: 235px;
+}
+
+.block-half {
+  height: 117.5px;
+}
+
+.btnSave {
+  overflow: visible;
+  text-decoration: none;
+}
+
+.btnSave:after, .btnSaveSkill:after {
+  content: "\f00c";
+  font-family: FontAwesome;
+  position: absolute;
+  display: block;
+  right: -60px;
+  top: -5px;
+  font-size: 20px;
+  color: white;
+  background: black;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  margin-right: 30px;
+}
+
+.btnDiscard:after {
+  content: "\f00d";
+  font-family: FontAwesome;
+  position: absolute;
+  right: -60px;
+  top: -5px;
+  font-size: 20px;
+  color: white;
+  background: black;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.btnSaveSkill:after {
+  right: -130px;
+  top: -7px;
+}
+
+.quote {
+  height: 170px;
+}
+
+.quote:after {
+  filter: alpha(opacity=20);
+  opacity: 0.1;
+  zoom: 0.3;
+}
+
+.quote:before {
+  filter: alpha(opacity=20);
+  opacity: 0.1;
+  zoom: 0.3;
+}
